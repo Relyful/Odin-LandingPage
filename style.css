@@ -1,8 +1,15 @@
+html {
+    box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0;    
 }
 
 .container {
@@ -25,16 +32,15 @@ ul {
 
 .header,
 .hero {
-    padding: 0 300px;
-    height: 56px;
+    padding: 0 300px;    
     background-color: #1f2937;    
     color: #e5e7eb;
     justify-content: space-between;
 }
 
 .header {
-    display: flex;    
-    padding-bottom: 56px;
+    display: flex; 
+    height: 56px;       
 }
 
 .header h3 {
@@ -51,8 +57,8 @@ ul {
 
 .hero {
     display: flex;
-    height: 300px;
-    align-items: center;    
+    height: 350px;
+    align-items: center;        
 }
 
 .hero-content {
@@ -64,7 +70,7 @@ ul {
 }
 
 .hero-picture {
-    width: 400px;    
+    width: 350px;    
     height: 180px;
     background-color: grey;
     flex-shrink: 0;
@@ -89,4 +95,41 @@ ul {
     padding: 8px 26px;
     border: none;
     color: #e5e7eb;
+}
+
+.info-boxes-container {
+    text-align: center;
+    padding: 0 350px;
+    height: 350px;       
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;    
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 32px;
+    max-width: 130px;
+    font-size: 14px;
+}
+
+.info-box-pic {
+    height: 125px;
+    width: 125px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #3882f6;
+    border-radius: 8px;
+}
+
+.boxes-title {
+    display: block;
+    padding: 56px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
