@@ -67,6 +67,7 @@ ul {
     flex-direction: column;
     margin-right: 56px;
     min-width: 350px;
+    max-width: 530px;
 }
 
 .hero-picture {
@@ -132,4 +133,28 @@ ul {
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+}
+
+.quote-box {
+    display: flex;
+    padding: 0 350px;
+    height: 350px;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 32px;
+    color: #1f2937;
+}
+
+.signature {
+    font-size: 18px;
+    font-weight: 900;
+    align-self: flex-end;
 }
