@@ -101,7 +101,7 @@ ul {
 .info-boxes-container {
     text-align: center;
     padding: 0 350px;
-    height: 350px;       
+    height: 400px;       
 }
 
 .info-boxes {
@@ -122,7 +122,7 @@ ul {
     height: 125px;
     width: 125px;
     border-style: solid;
-    border-width: 2px;
+    border-width: 4px;
     border-color: #3882f6;
     border-radius: 8px;
 }
@@ -157,4 +157,52 @@ ul {
     font-size: 18px;
     font-weight: 900;
     align-self: flex-end;
+}
+
+.footer {
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1f2937;
+    font-size: 18px;    
+    flex-wrap: wrap;
+    color: #e5e7eb;
+}
+
+.cto-box {
+    display: flex;
+    padding: 0 350px;
+    height: 300px;
+    flex-wrap: wrap;
+    align-content: center;    
+}
+
+.cto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 102px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 100%;
+    padding: 8px 32px;
+}
+
+.cto-text {
+    max-width: 350px;
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.button-white {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.cto-text h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
 }
